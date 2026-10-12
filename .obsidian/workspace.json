@@ -1,0 +1,253 @@
+{
+  "main": {
+    "id": "037162cf11b4b8bb",
+    "type": "split",
+    "children": [
+      {
+        "id": "e50fb22ac735ddcf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "380ad17aa9c8581d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Multi-Agent Systems Skills Scorecard - Study Guide.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Multi-Agent Systems Skills Scorecard - Study Guide"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3febc291911018df",
+    "type": "split",
+    "children": [
+      {
+        "id": "c8fbfebede5c6c91",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d854091efeaf2c55",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": true,
+                "searchQuery": "multi"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "42f535c3c69bbadc",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#prompt-engineering/cot",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "e93bad98713d703d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "08e7500960057d35",
+    "type": "split",
+    "children": [
+      {
+        "id": "573a735974c4201d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b5ab592b58e1aa00",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Implementing Agentic Workflows/Implementing Orchestrator-Workers Workflow.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "317dd158049b5104",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Implementing Agentic Workflows/Implementing Orchestrator-Workers Workflow.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "c3561d80b1f74bc4",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": true,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "1661d5922d7c890d",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "db8ab1c829b2cdbc",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "python notebooks/agentsville_planner/project_starter.ipynb",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "a8e19afca4173c2e",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 397.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-spaced-repetition:Review flashcards": false
+    }
+  },
+  "active": "a8e19afca4173c2e",
+  "lastOpenFiles": [
+    "Agentic Frameworks Compared.md",
+    "python notebooks/agentic-ai-c4-exercises-demos/project/Reflection Report.md",
+    "python notebooks/agentic-ai-c4-exercises-demos/project/test_results.csv",
+    "python notebooks/agentic-ai-c4-exercises-demos/project/munder_difflin.db-journal",
+    "python notebooks/agentic-ai-c4-exercises-demos/project/business_advisor_report.txt",
+    "python notebooks/agentic-ai-c4-exercises-demos/project/munder_difflin.db",
+    "python notebooks/agentic-ai-c4-exercises-demos/project/__pycache__/project_starter.cpython-314.pyc",
+    "python notebooks/agentic-ai-c4-exercises-demos/project/__pycache__",
+    "python notebooks/agentic-ai-c4-exercises-demos/project/Agent Workflow Sequence.svg",
+    "python notebooks/agentic-ai-c4-exercises-demos/project/Agent Workflow.svg",
+    "python notebooks/agentic-ai-c4-exercises-demos/project/Starter Code Review.md",
+    "python notebooks/agentic-ai-c4-exercises-demos/project/Agent Workflow.md",
+    "python notebooks/agentic-ai-c4-exercises-demos/project/RUBRIC.md",
+    "python notebooks/agentic-ai-c4-exercises-demos/project/INSTRUCTIONS.md",
+    "python notebooks/agentic-ai-c4-exercises-demos/project/PROJECTOVERVIEW.md",
+    "Multi-Agent Systems Skills Scorecard - Study Guide.md",
+    "State Management in Multi-Agent Systems.md",
+    "Multi-Agent Systems Skills Scorecard - Study Guide.md.tmp.62020.fb8d96dd7010",
+    "Multi-Agent Systems Skills Scorecard - Study Guide.md.tmp.62020.8320e0084285",
+    "Multi-Agent Systems Skills Scorecard - Study Guide.md.tmp.62020.5a3f29a9e3b8",
+    "Multi-Agent Systems Skills Scorecard - Study Guide.md.tmp.62020.49caaae2cdcd",
+    "Routing and Data Flow in Agentic Systems - Flashcards.md",
+    "Routing and Data Flow in Agentic Systems.md",
+    "Multi-Agent RAG - Flashcards.md",
+    "Multi-Agent RAG.md",
+    "Multi-Agent State Coordination - Flashcards.md",
+    "Multi-Agent State Coordination.md",
+    "Podcasts/MS AI Daily - 2026-09-23.md",
+    "State Management in Multi-Agent Systems - Flashcards.md",
+    "Skate Park Orchestration.md",
+    "Orchestrating Agent Activities - Flashcards.md",
+    "Orchestrating Agent Activities.md",
+    "Penguin and Scientist Agents.md",
+    "Smolagents Framework - Flashcards.md",
+    "Smolagents Framework.md",
+    "python notebooks/agentic-ai-c4-exercises-demos/lesson-1-multi-agent-architecture-design/Uluru_Cultural_Center_Extended_System.png",
+    "Podcasts/MS AI Daily - 2026-10-09.md",
+    "Agentic AI Skills Scorecard - Study Guide.md",
+    "Vector Databases.md",
+    "python notebooks/agentic-ai-c4-exercises-demos/lesson-7-multi-agent-retrieval-augmented-generation/sparkle_group.png",
+    "python notebooks/agentic-ai-c4-exercises-demos/lesson-6-multi-agent-state-coordination-and-orchestration/exercises/pasta_factory.png",
+    "python notebooks/agentic-ai-c4-exercises-demos/lesson-5-state-management-in-multi-agent-systems/exercises/fruit_market.png",
+    "python notebooks/agentic-ai-c4-exercises-demos/lesson-4-routing-and-data-flow-in-agentic-systems/exercises/post_office_bank.png",
+    "python notebooks/agentic-ai-c4-exercises-demos/lesson-4-routing-and-data-flow-in-agentic-systems/exercises/starter/post_office_bank.png",
+    "python notebooks/agentic-ai-c4-exercises-demos/lesson-3-orchestrating-agent-activities/exercises/skater disco.png",
+    "python notebooks/agentic-ai-c4-exercises-demos/lesson-2-multi-agent-architecture-implementation/demo/putzie_miercoles.png",
+    "Untitled.canvas"
+  ]
+}
