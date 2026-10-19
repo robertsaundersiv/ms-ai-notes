@@ -103,7 +103,7 @@ timeline
 > EC2 doesn't report **memory** use by default. Compute Optimizer only sees it if the **CloudWatch agent** publishes memory metrics. Without them, memory-bound recommendations are less reliable.
 
 > [!note] Lab detail (Exercise 1 demo)
-> **Rightsizing preferences** let you choose Regions and instance families. The exercise sheet sets a **32-day lookback**, optimizes for **maximum savings**, and limits recommendations to the **GPU and ML-accelerator families** used by the trading system: **P** and **G** (GPU), **Trn** (AWS Trainium), and **Inf** (AWS Inferentia). See [[Exercise 1 - Using AWS Cost Explorer and Compute Optimizer for Cost Analysis - How To]].
+> **Rightsizing preferences** let you choose Regions and instance families. The exercise sheet sets a **32-day lookback**, optimizes for **maximum savings**, and limits recommendations to the **GPU and ML-accelerator families** used by the trading system: **P** and **G** (GPU), **Trn** (AWS Trainium), and **Inf** (AWS Inferentia). See [[Exercise 1 - Using AWS Cost Explorer - How To]].
 
 ---
 

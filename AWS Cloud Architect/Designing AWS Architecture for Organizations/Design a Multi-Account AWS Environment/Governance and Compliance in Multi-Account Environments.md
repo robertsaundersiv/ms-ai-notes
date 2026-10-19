@@ -171,7 +171,7 @@ Artifact proves **AWS's** side. Audit Manager proves **your** side. Together the
 
 ## 5. Worked Example – A Control Baseline for a Hedge Fund
 
-*Beyond the lecture.* This applies the guidance levels to Steady Volatility Partners' OUs (from [[Exercise 2 - Implementing Governance Policies in AWS Control Tower - How To|Exercise 2]]):
+*Beyond the lecture.* This applies the guidance levels to Steady Volatility Partners' OUs (from [[Exercise 2 - AWS Control Tower - How To|Exercise 2]]):
 
 | OU | Guidance levels to enable | Example controls | Rationale |
 |---|---|---|---|

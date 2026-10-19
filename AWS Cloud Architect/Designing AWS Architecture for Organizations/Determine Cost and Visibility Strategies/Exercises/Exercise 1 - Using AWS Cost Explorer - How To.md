@@ -12,7 +12,7 @@ updated: 2026-10-17
 related:
   - "[[AWS Cost and Usage Monitoring Tools]]"
   - "[[Cost Optimization and Analysis Strategies]]"
-  - "[[Exercise 2 - Implementing Tagging and Reporting Strategies - How To]]"
+  - "[[Exercise 2 - Implementing Tagging - How To]]"
 tags:
   - aws/cost-management
   - aws/compute-optimizer
@@ -31,7 +31,7 @@ tags:
 >
 > It takes about 20 minutes, plus a 12–24-hour wait for findings.
 
-**Concepts:** [[AWS Cost and Usage Monitoring Tools]] · [[Cost Optimization and Analysis Strategies]] · **Next lab:** [[Exercise 2 - Implementing Tagging and Reporting Strategies - How To]]
+**Concepts:** [[AWS Cost and Usage Monitoring Tools]] · [[Cost Optimization and Analysis Strategies]] · **Next lab:** [[Exercise 2 - Implementing Tagging - How To]]
 **Source:** the official exercise sheet, cross-checked against the instructor's demo (video L3-A06).
 
 > [!warning] Optional, and not possible on Udacity-provided accounts

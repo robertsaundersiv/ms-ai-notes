@@ -12,7 +12,7 @@ updated: 2026-10-17
 related:
   - "[[AWS Control Tower]]"
   - "[[Governance and Compliance in Multi-Account Environments]]"
-  - "[[Exercise 1 - Create and Manage Accounts using AWS Organizations - How To]]"
+  - "[[Exercise 1 - Manage Accounts using AWS Organizations - How To]]"
 tags:
   - aws/control-tower
   - aws/lab
@@ -31,11 +31,11 @@ tags:
 >
 > All in the **Control Tower** console. The landing zone alone takes **30–60+ minutes**.
 
-**Concepts:** [[AWS Control Tower]] · [[Governance and Compliance in Multi-Account Environments]] · **Previous lab:** [[Exercise 1 - Create and Manage Accounts using AWS Organizations - How To]]
+**Concepts:** [[AWS Control Tower]] · [[Governance and Compliance in Multi-Account Environments]] · **Previous lab:** [[Exercise 1 - Manage Accounts using AWS Organizations - How To]]
 **Source:** the official exercise sheet, cross-checked against the instructor's demo (video L2-A08).
 
 > [!warning] Not possible with the course credits, and not free in your own account
-> Control Tower must run from an organization's **management account**, so it fails in the course sandbox for the same reason as [[Exercise 1 - Create and Manage Accounts using AWS Organizations - How To#0. Before You Start – Using Your Own Account|Exercise 1]]. If you do it in your own account, know these four things first:
+> Control Tower must run from an organization's **management account**, so it fails in the course sandbox for the same reason as [[Exercise 1 - Manage Accounts using AWS Organizations - How To#0. Before You Start – Using Your Own Account|Exercise 1]]. If you do it in your own account, know these four things first:
 > - **Real accounts:** it creates **three real AWS accounts**: Log Archive, Audit, and the programmer's account.
 > - **Ongoing charges:** Control Tower is free, but it switches on **AWS Config**, **CloudTrail**, and **S3 log storage** in every governed account. With no workloads that's typically small, but it **never stops** until you decommission.
 > - **Hard to undo:** decommissioning a landing zone is a multi-step process, and it doesn't close the accounts it created ([[#9. Cleanup – Personal Account]]).
@@ -207,7 +207,7 @@ Control Tower keeps charging small amounts until it's **decommissioned**. That's
 1. Disable the controls you enabled (optional, before decommissioning).
 2. Follow AWS's **Decommission a landing zone** procedure from the Control Tower console or documentation. Read it fully first.
 3. **Close** the Log Archive, Audit, and programmer accounts in **AWS Organizations** (each enters a ~90-day post-closure period).
-4. Then follow [[Exercise 1 - Create and Manage Accounts using AWS Organizations - How To#7. Cleanup – Personal Account|Exercise 1's cleanup]] for the OUs and organization.
+4. Then follow [[Exercise 1 - Manage Accounts using AWS Organizations - How To#7. Cleanup – Personal Account|Exercise 1's cleanup]] for the OUs and organization.
 
 > [!warning] Don't delete Control Tower resources by hand
 > Deleting Log Archive buckets, Config rules, or Control Tower roles directly is what the **mandatory controls** exist to prevent. It leaves the landing zone broken and harder to decommission ([[Governance and Compliance in Multi-Account Environments#3. Control Tower Control Guidance Levels]]).

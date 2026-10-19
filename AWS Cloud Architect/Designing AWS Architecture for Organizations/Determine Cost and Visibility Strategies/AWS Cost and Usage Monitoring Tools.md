@@ -173,7 +173,7 @@ flowchart TD
 
 ## 6. Worked Example – A Budget Plan for Steady Volatility Partners
 
-*Beyond the lecture.* This applies the lecture's tools to the OU structure from [[Exercise 2 - Implementing Governance Policies in AWS Control Tower - How To|Lesson 2]].
+*Beyond the lecture.* This applies the lecture's tools to the OU structure from [[Exercise 2 - AWS Control Tower - How To|Lesson 2]].
 
 | Scope | Budget | Alerts | Action |
 |---|---|---|---|

@@ -42,7 +42,7 @@ tags:
 
 **Lesson:** L3 – Determine Cost and Visibility Strategies · **Previous:** [[AWS Purchasing Options and Rightsizing]]
 **Section hub:** [[Designing AWS Architecture for Organizations]]
-**Sources:** Videos L3-A05 (Developing Tagging Strategies and Cost Allocation) and L3-A08 (Lesson Review), en-us transcripts. Tag policies are shown in the [[Exercise 2 - Implementing Tagging and Reporting Strategies - How To|Exercise 2 demo]], not the A05 lecture. Material marked *beyond the lecture* is my addition.
+**Sources:** Videos L3-A05 (Developing Tagging Strategies and Cost Allocation) and L3-A08 (Lesson Review), en-us transcripts. Tag policies are shown in the [[Exercise 2 - Implementing Tagging - How To|Exercise 2 demo]], not the A05 lecture. Material marked *beyond the lecture* is my addition.
 
 > [!todo]- Contents
 > 1. [[#1. The Whose-Instance-Is-This Problem]]
@@ -208,7 +208,7 @@ flowchart LR
     ATH --> CHG[Chargeback invoices]
 ```
 
-*(Demo options: **hourly** or **daily** granularity, a choice of file **format**, delivered to an **S3 bucket** under a prefix such as `CostReport/`. See the [[Exercise 2 - Implementing Tagging and Reporting Strategies - How To|Exercise 2 how-to]].)*
+*(Demo options: **hourly** or **daily** granularity, a choice of file **format**, delivered to an **S3 bucket** under a prefix such as `CostReport/`. See the [[Exercise 2 - Implementing Tagging - How To|Exercise 2 how-to]].)*
 
 ---
 

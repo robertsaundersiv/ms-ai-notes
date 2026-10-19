@@ -132,7 +132,7 @@ graph TD
     OU2a --> A3[Member account<br/>hr]
 ```
 
-*(The OU names come from the lesson's [[Exercise 1 - Create and Manage Accounts using AWS Organizations - How To|Exercise 1]] demo.)*
+*(The OU names come from the lesson's [[Exercise 1 - Manage Accounts using AWS Organizations - How To|Exercise 1]] demo.)*
 
 ---
 

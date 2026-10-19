@@ -11,7 +11,7 @@ created: 2026-10-17
 updated: 2026-10-17
 related:
   - "[[Tagging Strategies and Cost Allocation]]"
-  - "[[Exercise 1 - Using AWS Cost Explorer and Compute Optimizer for Cost Analysis - How To]]"
+  - "[[Exercise 1 - Using AWS Cost Explorer - How To]]"
 tags:
   - aws/cost-management/tagging
   - aws/organizations
@@ -29,13 +29,13 @@ tags:
 >
 > It takes about 20 minutes.
 
-**Concepts:** [[Tagging Strategies and Cost Allocation]] · **Previous lab:** [[Exercise 1 - Using AWS Cost Explorer and Compute Optimizer for Cost Analysis - How To]]
+**Concepts:** [[Tagging Strategies and Cost Allocation]] · **Previous lab:** [[Exercise 1 - Using AWS Cost Explorer - How To]]
 **Source:** the official exercise sheet, cross-checked against the instructor's demo (video L3-A07). (The sheet's objectives list also says "Enable Compute Optimizer". That's a carry-over from Exercise 1; no step here does it.)
 
 > [!warning] Optional, and not possible on Udacity-provided accounts
-> - **Step 1 (tag policy):** needs the **management account** of an organization with the `DeveloperTestArea` OU from [[Exercise 2 - Implementing Governance Policies in AWS Control Tower - How To|Lesson 2's Control Tower lab]].
+> - **Step 1 (tag policy):** needs the **management account** of an organization with the `DeveloperTestArea` OU from [[Exercise 2 - AWS Control Tower - How To|Lesson 2's Control Tower lab]].
 > - **Step 2:** in an organization, cost allocation tags are activated from the **management account**.
-> - **Step 3's second export:** needs the Cost Optimization Hub enabled ([[Exercise 1 - Using AWS Cost Explorer and Compute Optimizer for Cost Analysis - How To#3. Enable the Cost Optimization Hub|Exercise 1, step 3]]).
+> - **Step 3's second export:** needs the Cost Optimization Hub enabled ([[Exercise 1 - Using AWS Cost Explorer - How To#3. Enable the Cost Optimization Hub|Exercise 1, step 3]]).
 > - **Cost:** policies and tags are free. Exports store files in **S3**, which costs pennies a month.
 
 ---

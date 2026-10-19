@@ -74,8 +74,8 @@ tags:
 > 5. [[Governance and Compliance in Multi-Account Environments]] (A06, A09): Artifact; guidance levels; Audit Manager ([[Governance and Compliance in Multi-Account Environments - Flashcards|flashcards]])
 >
 > **Lesson 2 labs** (how-tos, no flashcards)
-> - [[Exercise 1 - Create and Manage Accounts using AWS Organizations - How To|Exercise 1 – Create and Manage Accounts using AWS Organizations]]
-> - [[Exercise 2 - Implementing Governance Policies in AWS Control Tower - How To|Exercise 2 – Implementing Governance Policies in AWS Control Tower]]
+> - [[Exercise 1 - Manage Accounts using AWS Organizations - How To|Exercise 1 – Create and Manage Accounts using AWS Organizations]]
+> - [[Exercise 2 - AWS Control Tower - How To|Exercise 2 – Implementing Governance Policies in AWS Control Tower]]
 >
 > **Lesson 3 – Determine Cost and Visibility Strategies**
 > 1. [[AWS Cost and Usage Monitoring Tools]] (A01–A02): Cost Explorer, Budgets and budget actions, Trusted Advisor ([[AWS Cost and Usage Monitoring Tools - Flashcards|flashcards]])
@@ -84,8 +84,8 @@ tags:
 > 4. [[Tagging Strategies and Cost Allocation]] (A05, A08): tags, cost allocation tags, enforcement, CUR 2.0 ([[Tagging Strategies and Cost Allocation - Flashcards|flashcards]])
 >
 > **Lesson 3 labs** (how-tos, no flashcards)
-> - [[Exercise 1 - Using AWS Cost Explorer and Compute Optimizer for Cost Analysis - How To|Exercise 1 – Using AWS Cost Explorer and Compute Optimizer for Cost Analysis]]
-> - [[Exercise 2 - Implementing Tagging and Reporting Strategies - How To|Exercise 2 – Implementing Tagging and Reporting Strategies]]
+> - [[Exercise 1 - Using AWS Cost Explorer - How To|Exercise 1 – Using AWS Cost Explorer and Compute Optimizer for Cost Analysis]]
+> - [[Exercise 2 - Implementing Tagging - How To|Exercise 2 – Implementing Tagging and Reporting Strategies]]
 >
 > **Project – Design and Architect Infrastructure for an Organization** (Excipient Technologies)
 > - [[Project Overview]]: rubric checklist, Cloud Lab rules

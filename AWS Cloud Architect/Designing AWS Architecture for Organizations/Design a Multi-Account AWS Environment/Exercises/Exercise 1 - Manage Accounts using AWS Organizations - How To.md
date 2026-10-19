@@ -12,7 +12,7 @@ updated: 2026-10-17
 related:
   - "[[AWS Organizations]]"
   - "[[Organizational Units and Service Control Policies]]"
-  - "[[Exercise 2 - Implementing Governance Policies in AWS Control Tower - How To]]"
+  - "[[Exercise 2 - AWS Control Tower - How To]]"
 tags:
   - aws/organizations
   - aws/lab
@@ -30,7 +30,7 @@ tags:
 >
 > Everything is done in the **AWS Organizations** console and takes about 20 minutes.
 
-**Concepts:** [[AWS Organizations]] · [[Organizational Units and Service Control Policies]] · **Next lab:** [[Exercise 2 - Implementing Governance Policies in AWS Control Tower - How To]]
+**Concepts:** [[AWS Organizations]] · [[Organizational Units and Service Control Policies]] · **Next lab:** [[Exercise 2 - AWS Control Tower - How To]]
 **Source:** the official exercise sheet, cross-checked against the instructor's demo (video L2-A07).
 
 > [!warning] Can't be done with the course's AWS credits
@@ -224,7 +224,7 @@ Root
 
 ## 7. Cleanup – Personal Account
 
-Nothing here costs money. Clean up only if you don't want the organization structure kept around, for example before trying [[Exercise 2 - Implementing Governance Policies in AWS Control Tower - How To|Exercise 2]], which **reuses** it. In this order:
+Nothing here costs money. Clean up only if you don't want the organization structure kept around, for example before trying [[Exercise 2 - AWS Control Tower - How To|Exercise 2]], which **reuses** it. In this order:
 
 1. **Invitations** → cancel the open invitation, if any.
 2. **Close `MarketPrediction-Prod`**: **AWS accounts** → select it → **Close** → confirm. It enters a **post-closure period** (about 90 days) and stays listed as *suspended*.

@@ -81,7 +81,7 @@ Control Tower ==relies on AWS Organizations== for the structure behind many of i
 | **Organizations already set up** | Control Tower **uses the existing organization**. Its management account becomes the Control Tower management account. Existing OUs can **stay as they are** or be **brought under Control Tower management** (registered). |
 
 > [!note] Registered vs. unregistered OUs
-> In [[Exercise 2 - Implementing Governance Policies in AWS Control Tower - How To|Exercise 2]], the Workloads and Corporate OUs from Exercise 1 appear in Control Tower but are **not governed** until you **register** them. Parent OUs come first, then their children.
+> In [[Exercise 2 - AWS Control Tower - How To|Exercise 2]], the Workloads and Corporate OUs from Exercise 1 appear in Control Tower but are **not governed** until you **register** them. Parent OUs come first, then their children.
 
 ---
 
