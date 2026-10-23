@@ -1,0 +1,9 @@
+[submodule "Agentic AI/python notebooks/UdaPlay Agentic AI Demo"]
+	path = Agentic AI/python notebooks/UdaPlay Agentic AI Demo
+	url = https://github.com/robertsaundersiv/Udacity_Udaplay_Building_Agents_Project.git
+[submodule "Agentic AI/python notebooks/agentic-ai-c4-exercises-demos/project"]
+	path = Agentic AI/python notebooks/agentic-ai-c4-exercises-demos/project
+	url = https://github.com/robertsaundersiv/udacity-beavers-choice-paper-company.git
+[submodule "AWS Cloud Architect/Designing AWS Architecture for Workloads/Project/Migrating-a-Credit-Card-Fraud-Pipeline-to-AWS"]
+	path = AWS Cloud Architect/Designing AWS Architecture for Workloads/Project/Migrating-a-Credit-Card-Fraud-Pipeline-to-AWS
+	url = https://github.com/robertsaundersiv/Migrating-a-Credit-Card-Fraud-Pipeline-to-AWS.git
