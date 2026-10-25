@@ -6,6 +6,8 @@ aliases:
 course: AWS Cloud Architect – Designing AWS Architecture for Workloads
 lessons:
   - C2-L1 Selecting Architecture for Workloads
+  - C2-L2 Migrating Workloads
+  - C2-L3 Determining New Architecture for Cloud Workloads
 level: 300 / Graduate
 type: lecture-notes
 status: review
@@ -20,6 +22,15 @@ related:
   - "[[Application Architectures and AWS Reference Architectures]]"
   - "[[Refactoring Data Workloads with AWS Glue]]"
   - "[[Re-platforming to Serverless with AWS Lambda]]"
+  - "[[AWS Migration Services Overview]]"
+  - "[[Migration Assessment and Tracking]]"
+  - "[[Workload Migration with DMS and MGN]]"
+  - "[[AWS Data Transfer Services]]"
+  - "[[Data Validation and Synchronization]]"
+  - "[[AWS Well-Architected Tool]]"
+  - "[[Enhancing Data Processing with Redshift, EMR, and Athena]]"
+  - "[[Serverless Modernization]]"
+  - "[[Application and Container Orchestration]]"
 tags:
   - aws/architecture
   - aws/migration
@@ -51,7 +62,25 @@ tags:
 > - [[Exercise 2 - Convert a Spark ETL Job to AWS Glue - How To|Exercise 2 – Convert a Spark ETL Job to AWS Glue]] (EV dataset)
 > - [[Exercise 3 - Event-Driven Notifications with Lambda and SNS - How To|Exercise 3 – Event-Driven Notifications with Lambda and SNS]]
 >
-> **Lesson 2 – AWS Migration and Synchronization** (preview only, see [[#Lesson 2 Preview – Migration and Synchronization Services]])
+> **Lesson 2 – Migrating Workloads** (AWS Migration and Synchronization)
+> 1. [[AWS Migration Services Overview]] (A01–A02): assessment / migration / transfer service map; Emirates case study ([[AWS Migration Services Overview - Flashcards|flashcards]])
+> 2. [[Migration Assessment and Tracking]] (A03, A05): Application Discovery Service (agentless vs. agent-based); Migration Hub ([[Migration Assessment and Tracking - Flashcards|flashcards]])
+> 3. [[Workload Migration with DMS and MGN]] (A08): DMS homogeneous/heterogeneous steps; MGN rehost steps ([[Workload Migration with DMS and MGN - Flashcards|flashcards]])
+> 4. [[AWS Data Transfer Services]] (A09–A10): Snow Family, DataSync, Direct Connect, Transfer Family ([[AWS Data Transfer Services - Flashcards|flashcards]])
+> 5. [[Data Validation and Synchronization]] (A11–A12, A15): a tale of two migrations; checksums; built-in vs. manual validation ([[Data Validation and Synchronization - Flashcards|flashcards]])
+>
+> **Lesson 2 labs:** none, by design. The course repo says they need an on-premises environment. Reference videos: [MGN demo](https://www.youtube.com/watch?v=8w-Ks_GEGPw) · [DMS demo](https://www.youtube.com/watch?v=u7yKzYpbiLk) · [Snowcone](https://www.youtube.com/watch?v=X_8LM7E_hiE)
+>
+> **Lesson 3 – Determining New Architecture for Cloud Workloads** (managed services)
+> 1. [[AWS Well-Architected Tool]] (A01–A03, A05 + repo demo): WA Tool process and outputs; Cox Automotive; from review to modernization ([[AWS Well-Architected Tool - Flashcards|flashcards]])
+> 2. [[Enhancing Data Processing with Redshift, EMR, and Athena]] (A06 + Athena demo): MPP warehouse vs. managed Spark vs. serverless SQL on S3 ([[Enhancing Data Processing with Redshift, EMR, and Athena - Flashcards|flashcards]])
+> 3. [[Serverless Modernization]] (A08): API Gateway, Lambda, Aurora Serverless; when serverless costs more ([[Serverless Modernization - Flashcards|flashcards]])
+> 4. [[Application and Container Orchestration]] (A09, A11): Step Functions; ECS + Fargate + ECR + EFS; ECS vs. EKS ([[Application and Container Orchestration - Flashcards|flashcards]])
+>
+> **Lesson 3 labs** (how-tos, no flashcards; from the [course repo](https://github.com/udacity/cd13808-Designing-AWS-Architecture-for-Workloads-public))
+> - [[Exercise 1 - Assessing and Optimizing Workloads - How To|Exercise 1 – Assessing and Optimizing Workloads]] (paper exercise)
+> - [[Exercise 2 - Query S3 Data with Amazon Athena - How To|Exercise 2 – Query S3 Data with Amazon Athena]] (Netflix titles; skip the broken CloudFormation)
+> - [[Exercise 3 - Deploy FastAPI on Amazon ECS with Fargate - How To|Exercise 3 – Deploy FastAPI on Amazon ECS with Fargate]]
 
 ---
 
@@ -83,20 +112,9 @@ Details: [[Cloud Migration Strategies#^health-metrics]].
 
 ---
 
-## Lesson 2 Preview – Migration and Synchronization Services
+## Lesson 2 – Migration and Synchronization Services
 
-The bundle included Lesson 2's intro video (C2-L2-A01). Its service map, kept here until Lesson 2's notes are written:
-
-| Category | Service | Purpose (as described) |
-|---|---|---|
-| **Assessment** | AWS Application Discovery Service | Analyze applications and their **dependencies** before migrating |
-| **Migration** | AWS Application Migration Service (**MGN**) | Move applications **without re-architecting** (rehost) |
-| | AWS Migration Hub | **Single place to track** migration progress |
-| | AWS Database Migration Service (**DMS**) | Move databases to and from AWS with **minimal downtime** |
-| **Data transfer** | AWS DataSync | Automate data movement between on-prem storage and AWS |
-| | AWS Transfer Family | Secure file transfers (SFTP and similar) into and out of AWS storage |
-| | AWS Snow Family | **Physical devices** for large transfers when the network is limited |
-| | AWS Direct Connect | **Private network link** for ongoing transfers and hybrid setups (see [[Designing AWS Architecture for Organizations#^def-hybrid]]) |
+The service map that was parked here as a preview now lives in [[AWS Migration Services Overview#1. The Service Map]], with a note for each group: [[Migration Assessment and Tracking|assessment and tracking]], [[Workload Migration with DMS and MGN|workload migration]], [[AWS Data Transfer Services|data transfer]], and [[Data Validation and Synchronization|validation]].
 
 ---
 
@@ -124,4 +142,4 @@ The bundle included Lesson 2's intro video (C2-L2-A01). Its service map, kept he
 - [AWS Prescriptive Guidance – migration strategies](https://docs.aws.amazon.com/prescriptive-guidance/latest/large-migration-guide/migration-strategies.html)
 - [AWS Architecture Center](https://aws.amazon.com/architecture/)
 
-%% Study hint: when the Lesson 2 bundle arrives, give it its own folder and move the preview table into its first topic note. %%
+%% Study hint: Lesson 2 notes live in 'Migrating Workloads'; Lesson 3 notes and labs live in 'Determining new Architecture for Cloud Workloads'. %%

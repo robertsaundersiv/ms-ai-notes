@@ -38,7 +38,7 @@ tags:
 >
 > The lab practises the core shift on a small scale. A polling loop that watches a directory becomes an ==event-driven Lambda function==: **S3 events trigger it**, it reads the bucket and key from the **event**, and it publishes an **SNS** notification through **boto3**. It runs under an **IAM execution role**, takes the topic ARN from an **environment variable**, and is tested with an **S3 test event** before real uploads.
 
-**Lesson:** L1 – Selecting Architecture for Workloads · **Previous:** [[Refactoring Data Workloads with AWS Glue]] · **Next:** Lesson 2 (see the [[Designing AWS Architecture for Workloads|hub]])
+**Lesson:** L1 – Selecting Architecture for Workloads · **Previous:** [[Refactoring Data Workloads with AWS Glue]] · **Next lesson:** [[AWS Migration Services Overview]] (L2 – Migrating Workloads)
 **Section hub:** [[Designing AWS Architecture for Workloads]]
 **Sources:** Video C2-L1-A14 (which also contains the code-conversion demo), L1 E3 Demo Parts 1–2, and L1 E3 Solution, en-us transcripts. The demo's on-screen code isn't in the transcripts, so the handler in [[#4. From Polling Loop to Event-Driven Function]] is a reconstruction of the steps described. **Inconsistency:** the end of Demo Part 2 says the exercise uses **SES** (email), but the solution video uses **SNS** with an email subscription and **delete** events. These notes follow the solution.
 
