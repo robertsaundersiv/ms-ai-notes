@@ -7,3 +7,6 @@
 [submodule "AWS Cloud Architect/Designing AWS Architecture for Workloads/Project/Migrating-a-Credit-Card-Fraud-Pipeline-to-AWS"]
 	path = AWS Cloud Architect/Designing AWS Architecture for Workloads/Project/Migrating-a-Credit-Card-Fraud-Pipeline-to-AWS
 	url = https://github.com/robertsaundersiv/Migrating-a-Credit-Card-Fraud-Pipeline-to-AWS.git
+[submodule "AWS Cloud Architect/Modernizing and Optimizing Architecture/Project/Trial-of-the-Century-Modern-Cloud-Architecture-v-AI"]
+	path = AWS Cloud Architect/Modernizing and Optimizing Architecture/Project/Trial-of-the-Century-Modern-Cloud-Architecture-v-AI
+	url = https://github.com/robertsaundersiv/Trial-of-the-Century-Modern-Cloud-Architecture-v-AI.git
